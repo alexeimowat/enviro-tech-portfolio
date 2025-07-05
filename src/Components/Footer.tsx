@@ -3,7 +3,9 @@ export function Footer() {
         <footer id="contact" className="bg-forest-green text-white py-16">
             <div className="container mx-auto px-6 text-center">
                 <h2 className="text-3xl font-bold mb-4">Get In Touch</h2>
-                <p className="max-w-xl mx-auto mb-8 text-gray-300">I'm currently seeking new opportunities and would love to hear from you. Whether you have a question or just want to say hi, feel free to reach out.</p>
+                <p className="max-w-xl mx-auto mb-8 text-gray-300">
+                    I'm currently seeking new opportunities and would love to hear from you. Whether you have a question or just want to say hi, feel free to reach out.
+                </p>
                 <a href="mailto:name@email.com" className="bg-sunshine-yellow text-gray-900 font-bold py-3 px-8 rounded-full text-lg hover:bg-sunshine-yellow-dark transition-colors inline-block">name@email.com</a>
                 <div className="flex justify-center space-x-6 mt-10">
                     <a href="#" className="text-gray-300 hover:text-white transition-colors" aria-label="LinkedIn Profile">
@@ -15,5 +17,4 @@ export function Footer() {
             </div>
         </footer>
     )
-
 }
