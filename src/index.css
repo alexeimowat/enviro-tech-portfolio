@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+/* Global Styles */
+.bg-forest-green { background-color: #2F4F4F; }
+.text-forest-green { color: #2F4F4F; }
+.hover\:bg-forest-green-dark:hover { background-color: #1a2c2c; }
+        
+.bg-blush-pink { background-color: #FEC5BB; }
+.text-blush-pink { color: #FEC5BB; }
+
+.bg-sunshine-yellow { background-color: #FDB813; }
+.text-sunshine-yellow { color: #FDB813; }
+.hover\:bg-sunshine-yellow-dark:hover { background-color: #e4a60b; }
+.border-sunshine-yellow { border-color: #FDB813; }
+
+.backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+}
